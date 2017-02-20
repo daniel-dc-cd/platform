@@ -105,7 +105,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - 测试邮箱设置"
+    "translation": "Coding Dojo - 测试邮箱设置"
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "api.oauth.complete_oauth.missing_code.app_error",
-    "translation": "服务提供商 {{.service}} 没有在重指向网址中提供授权码。\n\n如使用 [Google Apps](https://docs.mattermost.com/deployment/sso-google.html)，请确定您的管理员在 Google+ API 已启用。\n\n如使用 [Office 365](https://docs.mattermost.com/deployment/sso-office.html)，请确定您微软组织管理员已启用 Mattermost 应用。\n\n如使用 [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html)，请确定您根据设置说明完成设定。\n\n如果您已确认上面说明但仍由配置问题，您可以发帖到[故障排除论坛](https://forum.mattermost.org/c/general/trouble-shoot) ，我们会很乐意帮你排除设置问题。"
+    "translation": "服务提供商 {{.service}} 没有在重指向网址中提供授权码。\n\n如使用 [Google Apps](https://docs.mattermost.com/deployment/sso-google.html)，请确定您的管理员在 Google+ API 已启用。\n\n如使用 [Office 365](https://docs.mattermost.com/deployment/sso-office.html)，请确定您微软组织管理员已启用 Coding Dojo 应用。\n\n如使用 [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html)，请确定您根据设置说明完成设定。\n\n如果您已确认上面说明但仍由配置问题，您可以发帖到[故障排除论坛](https://forum.mattermost.org/c/general/trouble-shoot) ，我们会很乐意帮你排除设置问题。"
   },
   {
     "id": "api.oauth.delete.permissions.app_error",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack 导入日志 \r\n"
+    "translation": "Coding Dojo Slack 导入日志 \r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -2189,7 +2189,7 @@
   },
   {
     "id": "api.templates.upgrade_30_body.info",
-    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>您的多重帐号已更新</h3>您的 Mattermost 伺服器正在升级到版本 3.0，从此您可以在多个团队中使用同一个帐号。<br/><br/>您收到此邮件因为升级过程中发现您的邮箱地址或用户名和另外个帐号重复。<br/><br/>改动如下：<br/><br/>{{if .EmailChanged }}- 在 `/{{.TeamName}}` 团队中重复电子邮件已改为 `{{.Email}}`。你可以使用此新的电子邮件地址和密码登入。<br/><br/>{{end}}{{if .UsernameChanged }}- 在 `/{{.TeamName}}` 团队中重复用户名已改为 `{{.Username}}` 亿避免与其他帐号混淆。<br/><br/>{{end}} 建议操作： <br/><br/>建议您登入重复帐号的团队并将主帐号添加到想继续使用的团队，公开频道以及私有群组。<br/><br/>这样您可以用主帐号访问所有公开频道以及私有群组的历史。您可以继续登入重复帐号来获取私信历史。<br/><br/>更多咨询： <br/><br/>关于更多升级到 Mattermost 3.0 的相关咨询，请参见：<a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
+    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>您的多重帐号已更新</h3>您的 Coding Dojo 伺服器正在升级到版本 3.0，从此您可以在多个团队中使用同一个帐号。<br/><br/>您收到此邮件因为升级过程中发现您的邮箱地址或用户名和另外个帐号重复。<br/><br/>改动如下：<br/><br/>{{if .EmailChanged }}- 在 `/{{.TeamName}}` 团队中重复电子邮件已改为 `{{.Email}}`。你可以使用此新的电子邮件地址和密码登入。<br/><br/>{{end}}{{if .UsernameChanged }}- 在 `/{{.TeamName}}` 团队中重复用户名已改为 `{{.Username}}` 亿避免与其他帐号混淆。<br/><br/>{{end}} 建议操作： <br/><br/>建议您登入重复帐号的团队并将主帐号添加到想继续使用的团队，公开频道以及私有群组。<br/><br/>这样您可以用主帐号访问所有公开频道以及私有群组的历史。您可以继续登入重复帐号来获取私信历史。<br/><br/>更多咨询： <br/><br/>关于更多升级到 Coding Dojo 3.0 的相关咨询，请参见：<a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
   },
   {
     "id": "api.templates.upgrade_30_subject.info",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost 允许您通过PC或手机分享信息和文件，即时搜索和归档。"
+    "translation": "Coding Dojo 允许您通过PC或手机分享信息和文件，即时搜索和归档。"
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "您的 AD/LDAP 账号没有使用此 Mattermost 服务器的权限。请向您的系统管理员询问确认 AD/LDAP 用户过滤器。"
+    "translation": "您的 AD/LDAP 账号没有使用此 Coding Dojo 服务器的权限。请向您的系统管理员询问确认 AD/LDAP 用户过滤器。"
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "ent.ldap.mattermost_user_update",
-    "translation": "Mattermost 用户已被 AD/LDAP 服务器更新。"
+    "translation": "Coding Dojo 用户已被 AD/LDAP 服务器更新。"
   },
   {
     "id": "ent.ldap.syncdone.info",
@@ -3281,7 +3281,7 @@
   },
   {
     "id": "error.generic.link_message",
-    "translation": "返回到 Mattermost"
+    "translation": "返回到 Coding Dojo"
   },
   {
     "id": "error.generic.message",
@@ -3353,7 +3353,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost 安全公告"
+    "translation": "Coding Dojo 安全公告"
   },
   {
     "id": "mattermost.config_file",
@@ -3381,11 +3381,11 @@
   },
   {
     "id": "mattermost.security_checks.debug",
-    "translation": "检查 Mattermost 安全更新中"
+    "translation": "检查 Coding Dojo 安全更新中"
   },
   {
     "id": "mattermost.security_info.error",
-    "translation": "未能从 Mattermost 获得安全更新信息。"
+    "translation": "未能从 Coding Dojo 获得安全更新信息。"
   },
   {
     "id": "mattermost.send_bulletin.info",

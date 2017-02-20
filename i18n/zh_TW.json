@@ -93,7 +93,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "<br/><br/><br/>看起來您的 Mattermost 電子郵件設定正確！"
+    "translation": "<br/><br/><br/>看起來您的 Coding Dojo 電子郵件設定正確！"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -105,7 +105,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - 測試電子郵件設定"
+    "translation": "Coding Dojo - 測試電子郵件設定"
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
@@ -425,7 +425,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "送個邀請函給您的 Mattermost 團隊"
+    "translation": "送個邀請函給您的 Coding Dojo 團隊"
   },
   {
     "id": "api.command.invite_people.email_off",
@@ -561,7 +561,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "登出 Mattermost"
+    "translation": "登出 Coding Dojo"
   },
   {
     "id": "api.command_logout.fail_message",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "api.oauth.complete_oauth.missing_code.app_error",
-    "translation": "服務提供者 {{.service}} 在重導向網址中沒有提供授權碼。\n\n若使用 [Google Apps](https://docs.mattermost.com/deployment/sso-google.html)，請確定管理員有啟用 Google+ API。\n\n若使用 [Office 365](https://docs.mattermost.com/deployment/sso-office.html)，請確定微軟雲端服務的組織管理員有啟用 Mattermost 應用程式。\n\n若使用 [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html)，請確定有根據設定指示完成設定。\n\n如果重新確認過上面的文件且還是有設定上的問題，請至[障礙排除論壇](https://forum.mattermost.org/c/general/trouble-shoot)發文，我們很樂意在那邊為您排除設定上的問題。"
+    "translation": "服務提供者 {{.service}} 在重導向網址中沒有提供授權碼。\n\n若使用 [Google Apps](https://docs.mattermost.com/deployment/sso-google.html)，請確定管理員有啟用 Google+ API。\n\n若使用 [Office 365](https://docs.mattermost.com/deployment/sso-office.html)，請確定微軟雲端服務的組織管理員有啟用 Coding Dojo 應用程式。\n\n若使用 [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html)，請確定有根據設定指示完成設定。\n\n如果重新確認過上面的文件且還是有設定上的問題，請至[障礙排除論壇](https://forum.mattermost.org/c/general/trouble-shoot)發文，我們很樂意在那邊為您排除設定上的問題。"
   },
   {
     "id": "api.oauth.delete.permissions.app_error",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack 匯入記錄\r\n"
+    "translation": "Coding Dojo Slack 匯入記錄\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": "api.templates.error.link",
-    "translation": "回到 Mattermost"
+    "translation": "回到 Coding Dojo"
   },
   {
     "id": "api.templates.error.title",
@@ -2077,7 +2077,7 @@
   },
   {
     "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost 能讓您透過個人電腦與手機分享訊息與檔案，包括快速搜尋以及封存功能。當加入 <strong>{{.TeamDisplayName}}</strong> 後，您能夠透過下列網址隨時登入到新團隊來使用這些功能：<br/><br/><a href='{{.TeamURL}}'>{{.TeamURL}}</a>"
+    "translation": "Coding Dojo 能讓您透過個人電腦與手機分享訊息與檔案，包括快速搜尋以及封存功能。當加入 <strong>{{.TeamDisplayName}}</strong> 後，您能夠透過下列網址隨時登入到新團隊來使用這些功能：<br/><br/><a href='{{.TeamURL}}'>{{.TeamURL}}</a>"
   },
   {
     "id": "api.templates.invite_body.info",
@@ -2189,11 +2189,11 @@
   },
   {
     "id": "api.templates.upgrade_30_body.info",
-    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>您的多重帳號已更新</h3> Mattermost 伺服器已升級到版本3.0，從此可以在多個團隊中使用同一帳號。<br/><br/>升級程式發現伺服器上有您的帳號所以寄信給您。<br/><br/>更新如下：<br/><br/>{{if .EmailChanged }}- `/{{.TeamName}}`帳號中重覆的電子郵件已變更為`{{.Email}}`。您必須使用電子郵件與密碼登入，可用此新的電子郵件進行登入。<br/><br/>{{end}}{{if .UsernameChanged }}- `/{{.TeamName}}`站台重覆的使用者名稱變更為`{{.Username}}`以避免與其它的帳號混淆。<br/><br/>{{end}} 建議動作：<br/><br/>建議您用重覆的帳號登入並把主要帳號加到要繼續使用的團隊、公開頻道與私有群組。<br/><br/>這樣方可使用主要帳號存取所有公開頻道與私有群組的歷史。可以用其它重覆的帳號登入存取之前的直接傳送訊息。<br/><br/>詳細訊息：<br/><br/>如需關於升到到 Mattermost 3.0 的詳細資訊，請參閱：<a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
+    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>您的多重帳號已更新</h3> Coding Dojo 伺服器已升級到版本3.0，從此可以在多個團隊中使用同一帳號。<br/><br/>升級程式發現伺服器上有您的帳號所以寄信給您。<br/><br/>更新如下：<br/><br/>{{if .EmailChanged }}- `/{{.TeamName}}`帳號中重覆的電子郵件已變更為`{{.Email}}`。您必須使用電子郵件與密碼登入，可用此新的電子郵件進行登入。<br/><br/>{{end}}{{if .UsernameChanged }}- `/{{.TeamName}}`站台重覆的使用者名稱變更為`{{.Username}}`以避免與其它的帳號混淆。<br/><br/>{{end}} 建議動作：<br/><br/>建議您用重覆的帳號登入並把主要帳號加到要繼續使用的團隊、公開頻道與私有群組。<br/><br/>這樣方可使用主要帳號存取所有公開頻道與私有群組的歷史。可以用其它重覆的帳號登入存取之前的直接傳送訊息。<br/><br/>詳細訊息：<br/><br/>如需關於升到到 Coding Dojo 3.0 的詳細資訊，請參閱：<a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
   },
   {
     "id": "api.templates.upgrade_30_subject.info",
-    "translation": "[MATTERMOST] 升級至 Mattermost 3.0 後帳號的變更"
+    "translation": "[MATTERMOST] 升級至 Coding Dojo 3.0 後帳號的變更"
   },
   {
     "id": "api.templates.username_change_body.info",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost 能讓您透過個人電腦與手機分享訊息與檔案，包括快速搜尋以及封存功能。"
+    "translation": "Coding Dojo 能讓您透過個人電腦與手機分享訊息與檔案，包括快速搜尋以及封存功能。"
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "您的 AD/LDAP 帳號沒有使用此 Mattermost 伺服器的權限。請向系統管理員詢問確認 AD/LDAP 使用者過濾條件。"
+    "translation": "您的 AD/LDAP 帳號沒有使用此 Coding Dojo 伺服器的權限。請向系統管理員詢問確認 AD/LDAP 使用者過濾條件。"
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "ent.ldap.mattermost_user_update",
-    "translation": "Mattermost 使用者已根據 AD/LDAP 伺服器更新。"
+    "translation": "Coding Dojo 使用者已根據 AD/LDAP 伺服器更新。"
   },
   {
     "id": "ent.ldap.syncdone.info",
@@ -3281,7 +3281,7 @@
   },
   {
     "id": "error.generic.link_message",
-    "translation": "回到 Mattermost"
+    "translation": "回到 Coding Dojo"
   },
   {
     "id": "error.generic.message",
@@ -3293,7 +3293,7 @@
   },
   {
     "id": "error.not_found.link_message",
-    "translation": "回到 Mattermost"
+    "translation": "回到 Coding Dojo"
   },
   {
     "id": "error.not_found.message",
@@ -3353,7 +3353,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost 安全性公告"
+    "translation": "Coding Dojo 安全性公告"
   },
   {
     "id": "mattermost.config_file",
@@ -3381,11 +3381,11 @@
   },
   {
     "id": "mattermost.security_checks.debug",
-    "translation": "正在檢查來自 Mattermost 的安全性更新"
+    "translation": "正在檢查來自 Coding Dojo 的安全性更新"
   },
   {
     "id": "mattermost.security_info.error",
-    "translation": "從 Mattermost 抓取安全性更新資訊失敗"
+    "translation": "從 Coding Dojo 抓取安全性更新資訊失敗"
   },
   {
     "id": "mattermost.send_bulletin.info",
@@ -3393,7 +3393,7 @@
   },
   {
     "id": "mattermost.system_admins.error",
-    "translation": "為抓取 Mattermost 上的安全性更新資訊獲取系統管理員失敗。"
+    "translation": "為抓取 Coding Dojo 上的安全性更新資訊獲取系統管理員失敗。"
   },
   {
     "id": "mattermost.working_dir",
