@@ -93,7 +93,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "<br/><br/><br/>Mail voor Mattermost lijkt goed geconfigureerd te zijn!"
+    "translation": "<br/><br/><br/>Mail voor Coding Dojo lijkt goed geconfigureerd te zijn!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -105,7 +105,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - E-mail-instellingen testen"
+    "translation": "Coding Dojo - E-mail-instellingen testen"
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
@@ -425,7 +425,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Stuur een email uitnodiging naar jouw Mattermost team"
+    "translation": "Stuur een email uitnodiging naar jouw Coding Dojo team"
   },
   {
     "id": "api.command.invite_people.email_off",
@@ -561,7 +561,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Uitloggen uit Mattermost"
+    "translation": "Uitloggen uit Coding Dojo"
   },
   {
     "id": "api.command_logout.fail_message",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "api.oauth.complete_oauth.missing_code.app_error",
-    "translation": "De service provider {{.service}} heeft geen autorisatie code gegeven in de doorrstuur URL.\n\nVoor [Google Apps](https://docs.mattermost.com/deployment/sso-google.html) wees zeker dat Uw beheerder de Google+ API heeft aangezet.\n\nVoor [Office 365](https://docs.mattermost.com/deployment/sso-office.html) wees zeker dat Uw beheerder van Uw Microsoft domein de Mattermost app heeft aangezet.\n\nVor [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html) wees zeker dat U onderstaande instructies heeft gevolgd.\n\nIf you reviewed the above and are still having trouble with configuration, you may post in our [Troubleshooting forum](https://forum.mattermost.org/c/general/trouble-shoot) where we'll be happy to help with issues during setup."
+    "translation": "De service provider {{.service}} heeft geen autorisatie code gegeven in de doorrstuur URL.\n\nVoor [Google Apps](https://docs.mattermost.com/deployment/sso-google.html) wees zeker dat Uw beheerder de Google+ API heeft aangezet.\n\nVoor [Office 365](https://docs.mattermost.com/deployment/sso-office.html) wees zeker dat Uw beheerder van Uw Microsoft domein de Coding Dojo app heeft aangezet.\n\nVor [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html) wees zeker dat U onderstaande instructies heeft gevolgd.\n\nIf you reviewed the above and are still having trouble with configuration, you may post in our [Troubleshooting forum](https://forum.mattermost.org/c/general/trouble-shoot) where we'll be happy to help with issues during setup."
   },
   {
     "id": "api.oauth.delete.permissions.app_error",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack importeer log\r\n"
+    "translation": "Coding Dojo Slack importeer log\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": "api.templates.error.link",
-    "translation": "Ga terug naar Mattermost"
+    "translation": "Ga terug naar Coding Dojo"
   },
   {
     "id": "api.templates.error.title",
@@ -2077,7 +2077,7 @@
   },
   {
     "id": "api.templates.invite_body.extra_info",
-    "translation": "Met Mattermost kunnen berichten en bestanden gedeeld worden via PC of mobiel, gecombineerd met instant zoeken en archiveren. Nadat U lid bent geworden van <strong>{{.TeamDisplayName}}</strong>, kun je inloggen bij het team en deze functies ieder moment benaderen via het internet adres:<br/><br/><a href='{{.TeamURL}}'>{{.teamURL}}</a>"
+    "translation": "Met Coding Dojo kunnen berichten en bestanden gedeeld worden via PC of mobiel, gecombineerd met instant zoeken en archiveren. Nadat U lid bent geworden van <strong>{{.TeamDisplayName}}</strong>, kun je inloggen bij het team en deze functies ieder moment benaderen via het internet adres:<br/><br/><a href='{{.TeamURL}}'>{{.teamURL}}</a>"
   },
   {
     "id": "api.templates.invite_body.info",
@@ -2189,11 +2189,11 @@
   },
   {
     "id": "api.templates.upgrade_30_body.info",
-    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>UW DUBBELE ACCOUNTS ZIJN BIJGEWERKT</h3>Uw Mattermost server wordt geüpgraded naar versie 3.0, die toelaat om één account te gebruiken voor verschillende teams.<br/><br/>U krijgt deze email omdat het upgrade proces gedetecteerd heeft dat uw account dezelfde email of gebruikersnaam heeft als voor andere accounts op deze server.<br/><br/>De volgende bijwerkingen zijn gemaakt: <br/><br/>{{if .EmailChanged }}- De dubbele email van een account op het `/{{.TeamName}}` team is veranderd naar `{{.Email}}`. Indien u email en wachtwoord gebruikt om in te loggen kunt bovenstaand email adres gebruiken.<br/><br/>{{end}}{{if .UsernameChanged }}- De dubbele gebruikersnaam van van een account op de team site `/{{.TeamName}}` is veranderd naar `{{.Username}}` om verwarring met andere accounts te voorkomen.<br/><br/>{{end}} AANGERADEN ACTIE: <br/><br/>Het is aangeraden dat u inlogt in uw team die gebruikt zijn door de dubbele accounts en uw primair account aan het team en alle publieke kanalen toevoegt die u wilt blijven gebruiken. <br/><br/>Dit geeft uw primair account toegang tot alle publieke kanalen en de privé groepshistoriek. U kunt uw dubbele accounts blijven gebruiken om de privé berichten historiek te lezen door in te loggen met de oude inloggevens. <br/><br/>VOOR MEER INFORMATIE: <br/><br/>Voor meer informatie over de upgrade naar Mattermost 3.0: <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
+    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>UW DUBBELE ACCOUNTS ZIJN BIJGEWERKT</h3>Uw Coding Dojo server wordt geüpgraded naar versie 3.0, die toelaat om één account te gebruiken voor verschillende teams.<br/><br/>U krijgt deze email omdat het upgrade proces gedetecteerd heeft dat uw account dezelfde email of gebruikersnaam heeft als voor andere accounts op deze server.<br/><br/>De volgende bijwerkingen zijn gemaakt: <br/><br/>{{if .EmailChanged }}- De dubbele email van een account op het `/{{.TeamName}}` team is veranderd naar `{{.Email}}`. Indien u email en wachtwoord gebruikt om in te loggen kunt bovenstaand email adres gebruiken.<br/><br/>{{end}}{{if .UsernameChanged }}- De dubbele gebruikersnaam van van een account op de team site `/{{.TeamName}}` is veranderd naar `{{.Username}}` om verwarring met andere accounts te voorkomen.<br/><br/>{{end}} AANGERADEN ACTIE: <br/><br/>Het is aangeraden dat u inlogt in uw team die gebruikt zijn door de dubbele accounts en uw primair account aan het team en alle publieke kanalen toevoegt die u wilt blijven gebruiken. <br/><br/>Dit geeft uw primair account toegang tot alle publieke kanalen en de privé groepshistoriek. U kunt uw dubbele accounts blijven gebruiken om de privé berichten historiek te lezen door in te loggen met de oude inloggevens. <br/><br/>VOOR MEER INFORMATIE: <br/><br/>Voor meer informatie over de upgrade naar Coding Dojo 3.0: <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
   },
   {
     "id": "api.templates.upgrade_30_subject.info",
-    "translation": "[MATTERMOST] Veranderingen aan uw account voor de Mattermost 3.0 Upgrade"
+    "translation": "[MATTERMOST] Veranderingen aan uw account voor de Coding Dojo 3.0 Upgrade"
   },
   {
     "id": "api.templates.username_change_body.info",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "api.templates.welcome_body.info3",
-    "translation": "Met Mattermost kunnen berichten en bestande uitgewisseld worden via PC of Telefoon, met instant zoek en archiveer functies."
+    "translation": "Met Coding Dojo kunnen berichten en bestande uitgewisseld worden via PC of Telefoon, met instant zoek en archiveer functies."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Je AD/LDAP account heeft niet de juiste permissies om van deze Mattermost server gebruik te maken. Vraag je Systeembeheerder om het AD/LDAP gebruikersfilter te controleren."
+    "translation": "Je AD/LDAP account heeft niet de juiste permissies om van deze Coding Dojo server gebruik te maken. Vraag je Systeembeheerder om het AD/LDAP gebruikersfilter te controleren."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "ent.ldap.mattermost_user_update",
-    "translation": "Mattermost gebruiker is bijgewerkt door de AD/LDAP server."
+    "translation": "Coding Dojo gebruiker is bijgewerkt door de AD/LDAP server."
   },
   {
     "id": "ent.ldap.syncdone.info",
@@ -3281,7 +3281,7 @@
   },
   {
     "id": "error.generic.link_message",
-    "translation": "Ga terug naar Mattermost"
+    "translation": "Ga terug naar Coding Dojo"
   },
   {
     "id": "error.generic.message",
@@ -3293,7 +3293,7 @@
   },
   {
     "id": "error.not_found.link_message",
-    "translation": "Ga terug naar Mattermost"
+    "translation": "Ga terug naar Coding Dojo"
   },
   {
     "id": "error.not_found.message",
@@ -3353,7 +3353,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost beveiligings bulletin"
+    "translation": "Coding Dojo beveiligings bulletin"
   },
   {
     "id": "mattermost.config_file",
@@ -3381,11 +3381,11 @@
   },
   {
     "id": "mattermost.security_checks.debug",
-    "translation": "Controle op beveiligings-bijwerkingen van Mattermost"
+    "translation": "Controle op beveiligings-bijwerkingen van Coding Dojo"
   },
   {
     "id": "mattermost.security_info.error",
-    "translation": "Kan geen beveiligings-bijwerking informatie van Mattermost ophalen."
+    "translation": "Kan geen beveiligings-bijwerking informatie van Coding Dojo ophalen."
   },
   {
     "id": "mattermost.send_bulletin.info",
@@ -3393,7 +3393,7 @@
   },
   {
     "id": "mattermost.system_admins.error",
-    "translation": "Kan systeembeheerder niet vinden voor de beveiligings-bijwerkingen informatie van Mattermost."
+    "translation": "Kan systeembeheerder niet vinden voor de beveiligings-bijwerkingen informatie van Coding Dojo."
   },
   {
     "id": "mattermost.working_dir",

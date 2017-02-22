@@ -105,7 +105,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - 電子メール設定のテスト"
+    "translation": "Coding Dojo - 電子メール設定のテスト"
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slackインポートログ\r\n"
+    "translation": "Coding Dojo Slackインポートログ\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -2189,11 +2189,11 @@
   },
   {
     "id": "api.templates.upgrade_30_body.info",
-    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>重複していたアカウントが更新されました</h3>利用しているMattermostサーバーがバージョン3.0に更新され、1つのアカウントで複数のチームを利用できるようになりました。<br/><br/>サーバー上の他のアカウントと同じメールアドレス・ユーザー名が使用されていることを検知したため、このメールでお知らせしています。<br/><br/>アカウントは次の通りに更新されました: <br/><br/>{{if .EmailChanged }}- メールアドレスが重複していた`/{{.TeamName}}`チームのアカウントのメールアドレスは`{{.Email}}`に変更されました。 メールアドレスとパスワードをログインに使用している場合は、この新しいメールアドレスを使用してください。<br/><br/>{{end}}{{if .UsernameChanged }}- ユーザー名が重複していた`/{{.TeamName}}`チームのアカウントのユーザー名は`{{.Username}}`に変更されました。<br/><br/>{{end}} 推奨される操作: <br/><br/>重複していたアカウントを利用してチームへログインし、メインのアカウントをチームと公開チャンネル、利用を続ける非公開グループに追加することを推奨します。<br/><br/>メインのアカウントで全ての公開チャンネルと非公開グループの履歴を閲覧することが出来ます。ダイレクトメッセージの履歴は、重複していたアカウントでログインすることで閲覧することが出来ます。<br/><br/>追加情報: <br/><br/>Mattermost 3.0への更新に関する情報は、次のURLよりご確認ください: <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
+    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>重複していたアカウントが更新されました</h3>利用しているMattermostサーバーがバージョン3.0に更新され、1つのアカウントで複数のチームを利用できるようになりました。<br/><br/>サーバー上の他のアカウントと同じメールアドレス・ユーザー名が使用されていることを検知したため、このメールでお知らせしています。<br/><br/>アカウントは次の通りに更新されました: <br/><br/>{{if .EmailChanged }}- メールアドレスが重複していた`/{{.TeamName}}`チームのアカウントのメールアドレスは`{{.Email}}`に変更されました。 メールアドレスとパスワードをログインに使用している場合は、この新しいメールアドレスを使用してください。<br/><br/>{{end}}{{if .UsernameChanged }}- ユーザー名が重複していた`/{{.TeamName}}`チームのアカウントのユーザー名は`{{.Username}}`に変更されました。<br/><br/>{{end}} 推奨される操作: <br/><br/>重複していたアカウントを利用してチームへログインし、メインのアカウントをチームと公開チャンネル、利用を続ける非公開グループに追加することを推奨します。<br/><br/>メインのアカウントで全ての公開チャンネルと非公開グループの履歴を閲覧することが出来ます。ダイレクトメッセージの履歴は、重複していたアカウントでログインすることで閲覧することが出来ます。<br/><br/>追加情報: <br/><br/>Coding Dojo 3.0への更新に関する情報は、次のURLよりご確認ください: <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
   },
   {
     "id": "api.templates.upgrade_30_subject.info",
-    "translation": "[MATTERMOST] Mattermost 3.0アップデートのためのあなたのアカウントの変更"
+    "translation": "[MATTERMOST] Coding Dojo 3.0アップデートのためのあなたのアカウントの変更"
   },
   {
     "id": "api.templates.username_change_body.info",

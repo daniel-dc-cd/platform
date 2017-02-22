@@ -93,7 +93,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "<br/><br/><br/>La configuration e-mail de Mattermost s'est déroulée avec succès !"
+    "translation": "<br/><br/><br/>La configuration e-mail de Coding Dojo s'est déroulée avec succès !"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -105,7 +105,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Test des réglages e-mail"
+    "translation": "Coding Dojo - Test des réglages e-mail"
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
@@ -561,7 +561,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Se déconnecter de Mattermost"
+    "translation": "Se déconnecter de Coding Dojo"
   },
   {
     "id": "api.command_logout.fail_message",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "api.oauth.complete_oauth.missing_code.app_error",
-    "translation": "Le fournisseur de services {{.service}} n'a pas envoyé un code d'autorisation dans l'URL de redirection.\n\nPour [Google Apps](https://docs.mattermost.com/deployment/sso-google.html) vérifiez que votre administrateur a activé l'API Google+.\n\nPour [Office 365](https://docs.mattermost.com/deployment/sso-office.html) vérifiez que l'administrateur de votre organisation Microsoft a activé l'application Mattermost.\n\nPour [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html) verifiez que vous avez suivi les instructions d'installation.\n\nSi malgré cela vous avez toujours des problèmes avec votre configuration, postez un message sur le [forum de dépannage](https://forum.mattermost.org/c/general/trouble-shoot) où nous aidons à résoudre les problèmes d'installation."
+    "translation": "Le fournisseur de services {{.service}} n'a pas envoyé un code d'autorisation dans l'URL de redirection.\n\nPour [Google Apps](https://docs.mattermost.com/deployment/sso-google.html) vérifiez que votre administrateur a activé l'API Google+.\n\nPour [Office 365](https://docs.mattermost.com/deployment/sso-office.html) vérifiez que l'administrateur de votre organisation Microsoft a activé l'application Coding Dojo.\n\nPour [GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html) verifiez que vous avez suivi les instructions d'installation.\n\nSi malgré cela vous avez toujours des problèmes avec votre configuration, postez un message sur le [forum de dépannage](https://forum.mattermost.org/c/general/trouble-shoot) où nous aidons à résoudre les problèmes d'installation."
   },
   {
     "id": "api.oauth.delete.permissions.app_error",
@@ -1817,7 +1817,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Journal import Slack Mattermost\r\n"
+    "translation": "Journal import Slack Coding Dojo\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": "api.templates.error.link",
-    "translation": "Retourner sur Mattermost"
+    "translation": "Retourner sur Coding Dojo"
   },
   {
     "id": "api.templates.error.title",
@@ -2077,7 +2077,7 @@
   },
   {
     "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost vous permet de partager des messages et des fichiers depuis votre PC ou votre téléphone, avec des fonctionnalités de recherche et d'archivage. Après avoir rejoint<strong>{{.TeamDisplayName}}</strong>, vous pouvez vous connecter à votre nouvelle équipe et utiliser ces fonctionnalités quand bon vous semble à l'adresse web suivante :<br/><br/><a href='{{.TeamURL}}'>{{.TeamURL}}</a>"
+    "translation": "Coding Dojo vous permet de partager des messages et des fichiers depuis votre PC ou votre téléphone, avec des fonctionnalités de recherche et d'archivage. Après avoir rejoint<strong>{{.TeamDisplayName}}</strong>, vous pouvez vous connecter à votre nouvelle équipe et utiliser ces fonctionnalités quand bon vous semble à l'adresse web suivante :<br/><br/><a href='{{.TeamURL}}'>{{.TeamURL}}</a>"
   },
   {
     "id": "api.templates.invite_body.info",
@@ -2189,11 +2189,11 @@
   },
   {
     "id": "api.templates.upgrade_30_body.info",
-    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>VOS COMPTES DUPLIQUES ONT ETE MIS A NIVEAU</h3>Votre serveur Mattermost a été mis à niveau vers la version 3.0, qui vous permet d'utiliser un seul compte pour plusieurs équipes.<br/><br/>Vous recevez cet email parce que le processus de mise à niveau a détecté que votre compte utilisait la même adresse email ou le même nom d'utilisateur que d'autres comptes présents sur le serveur.<br/><br/>Les mises à niveau suivantes ont été effectuées : <br/><br/>{{if .EmailChanged }}- Une adresse email dupliquée d'un compte de l'équipe `/{{.TeamName}}` a été changé en `{{.Email}}`. Vous devrez utiliser cette nouvelle adresse email la prochaine fois que vous vous connecterez à l'aide de votre adresse email et mot de passe.<br/><br/>{{end}}{{if .UsernameChanged }}- Un nom d'utilisateur en doublon d'un compte de l'équipe `/{{.TeamName}}` a été changé en `{{.Username}}` pour éviter toute confusion avec d'autres comptes.<br/><br/>{{end}} ACTION RECOMMANDÉE : <br/><br/>Il est nécessaire que vous vous connectiez aux équipes qui utilisent vos comptes dupliqués de façon à ajouter votre compte principal à cette équipe et ainsi pouvoir continuer à utiliser vos groupes publics et privés.<br/><br/>De cette façon, votre compte principal aura accès à l'entièreté de l'historique des canaux publics et privés. Vous pouvez continuer à utiliser l'historique des messages privés en utilisant vos comptes dupliqués en vous connectant à l'aide de leurs paramètres d'authentification. <br/><br/>POUR PLUS D'INFORMATION: <br/><br/>Pour plus d'information sur la mise à niveau vers Mattermost 3.0, veuillez vous référer à : <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
+    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>VOS COMPTES DUPLIQUES ONT ETE MIS A NIVEAU</h3>Votre serveur Coding Dojo a été mis à niveau vers la version 3.0, qui vous permet d'utiliser un seul compte pour plusieurs équipes.<br/><br/>Vous recevez cet email parce que le processus de mise à niveau a détecté que votre compte utilisait la même adresse email ou le même nom d'utilisateur que d'autres comptes présents sur le serveur.<br/><br/>Les mises à niveau suivantes ont été effectuées : <br/><br/>{{if .EmailChanged }}- Une adresse email dupliquée d'un compte de l'équipe `/{{.TeamName}}` a été changé en `{{.Email}}`. Vous devrez utiliser cette nouvelle adresse email la prochaine fois que vous vous connecterez à l'aide de votre adresse email et mot de passe.<br/><br/>{{end}}{{if .UsernameChanged }}- Un nom d'utilisateur en doublon d'un compte de l'équipe `/{{.TeamName}}` a été changé en `{{.Username}}` pour éviter toute confusion avec d'autres comptes.<br/><br/>{{end}} ACTION RECOMMANDÉE : <br/><br/>Il est nécessaire que vous vous connectiez aux équipes qui utilisent vos comptes dupliqués de façon à ajouter votre compte principal à cette équipe et ainsi pouvoir continuer à utiliser vos groupes publics et privés.<br/><br/>De cette façon, votre compte principal aura accès à l'entièreté de l'historique des canaux publics et privés. Vous pouvez continuer à utiliser l'historique des messages privés en utilisant vos comptes dupliqués en vous connectant à l'aide de leurs paramètres d'authentification. <br/><br/>POUR PLUS D'INFORMATION: <br/><br/>Pour plus d'information sur la mise à niveau vers Coding Dojo 3.0, veuillez vous référer à : <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
   },
   {
     "id": "api.templates.upgrade_30_subject.info",
-    "translation": "[MATTERMOST] Modifications sur votre compte utilisateur pour Mattermost 3.0"
+    "translation": "[MATTERMOST] Modifications sur votre compte utilisateur pour Coding Dojo 3.0"
   },
   {
     "id": "api.templates.username_change_body.info",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost vous permet de partager des messages et des fichiers depuis votre ordinateur, téléphone ou tablette avec  des fonctionnalités de recherche instantanée et d'archivage."
+    "translation": "Coding Dojo vous permet de partager des messages et des fichiers depuis votre ordinateur, téléphone ou tablette avec  des fonctionnalités de recherche instantanée et d'archivage."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Votre compte LDAP ne dispose pas des permissions pour utiliser ce serveur Mattermost. Veuillez demander à votre administrateur système de vérifier le filtre des utilisateurs LDAP."
+    "translation": "Votre compte LDAP ne dispose pas des permissions pour utiliser ce serveur Coding Dojo. Veuillez demander à votre administrateur système de vérifier le filtre des utilisateurs LDAP."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "ent.ldap.mattermost_user_update",
-    "translation": "L'utilisateur Mattermost a été mis à jour par le serveur LDAP."
+    "translation": "L'utilisateur Coding Dojo a été mis à jour par le serveur LDAP."
   },
   {
     "id": "ent.ldap.syncdone.info",
@@ -3281,7 +3281,7 @@
   },
   {
     "id": "error.generic.link_message",
-    "translation": "Retourner sur Mattermost"
+    "translation": "Retourner sur Coding Dojo"
   },
   {
     "id": "error.generic.message",
@@ -3293,7 +3293,7 @@
   },
   {
     "id": "error.not_found.link_message",
-    "translation": "Retourner sur Mattermost"
+    "translation": "Retourner sur Coding Dojo"
   },
   {
     "id": "error.not_found.message",
@@ -3353,7 +3353,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Bulletin de Sécurité Mattermost"
+    "translation": "Bulletin de Sécurité Coding Dojo"
   },
   {
     "id": "mattermost.config_file",
@@ -3381,11 +3381,11 @@
   },
   {
     "id": "mattermost.security_checks.debug",
-    "translation": "Vérification des mises à jour de sécurité pour Mattermost"
+    "translation": "Vérification des mises à jour de sécurité pour Coding Dojo"
   },
   {
     "id": "mattermost.security_info.error",
-    "translation": "Échec du chargement des informations de mise à jour de sécurité pour Mattermost."
+    "translation": "Échec du chargement des informations de mise à jour de sécurité pour Coding Dojo."
   },
   {
     "id": "mattermost.send_bulletin.info",
@@ -3393,7 +3393,7 @@
   },
   {
     "id": "mattermost.system_admins.error",
-    "translation": "Échec du chargement de la liste des administrateurs système pour les informer d'une mise à jour de sécurité de Mattermost."
+    "translation": "Échec du chargement de la liste des administrateurs système pour les informer d'une mise à jour de sécurité de Coding Dojo."
   },
   {
     "id": "mattermost.working_dir",

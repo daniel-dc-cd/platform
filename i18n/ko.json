@@ -93,7 +93,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "<br/><br/><br/> Mattermost 이메일이 잘 설정된 것 같군요!"
+    "translation": "<br/><br/><br/> Coding Dojo 이메일이 잘 설정된 것 같군요!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -105,7 +105,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - 이메일 설정 테스트중"
+    "translation": "Coding Dojo - 이메일 설정 테스트중"
   },
   {
     "id": "api.admin.upload_brand_image.array.app_error",
@@ -425,7 +425,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "여러분의 Mattermost 팀에게 초대 메일을 보내기"
+    "translation": "여러분의 Coding Dojo 팀에게 초대 메일을 보내기"
   },
   {
     "id": "api.command.invite_people.email_off",
@@ -561,7 +561,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Mattermost 로그아웃"
+    "translation": "Coding Dojo 로그아웃"
   },
   {
     "id": "api.command_logout.fail_message",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "api.oauth.complete_oauth.missing_code.app_error",
-    "translation": "서비스 제공자 {{.service}}(이)가 리다이렉트 URL에서 Authorization 코드를 제공하지 않습니다.\n\n[Google Apps](https://docs.mattermost.com/deployment/sso-google.html) 관리자가 Google+ API를 활성화 했는지 확인해보세요.\n\n[Office 365](https://docs.mattermost.com/deployment/sso-office.html) 관리자가  Microsoft organization에서 Mattermost 앱을 활성화 했는지 확인해보세요.\n\n[GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html) 설정 지시를 잘 따라했는지 확인해보세요.\n\n위 설정을 모두 확인한 후 문제가 지속된다면, [Troubleshooting 포럼](https://forum.mattermost.org/c/general/trouble-shoot)에 글로 남겨주시세요. 성심성의 껏 도와드립니다."
+    "translation": "서비스 제공자 {{.service}}(이)가 리다이렉트 URL에서 Authorization 코드를 제공하지 않습니다.\n\n[Google Apps](https://docs.mattermost.com/deployment/sso-google.html) 관리자가 Google+ API를 활성화 했는지 확인해보세요.\n\n[Office 365](https://docs.mattermost.com/deployment/sso-office.html) 관리자가  Microsoft organization에서 Coding Dojo 앱을 활성화 했는지 확인해보세요.\n\n[GitLab](https://docs.mattermost.com/deployment/sso-gitlab.html) 설정 지시를 잘 따라했는지 확인해보세요.\n\n위 설정을 모두 확인한 후 문제가 지속된다면, [Troubleshooting 포럼](https://forum.mattermost.org/c/general/trouble-shoot)에 글로 남겨주시세요. 성심성의 껏 도와드립니다."
   },
   {
     "id": "api.oauth.delete.permissions.app_error",
@@ -2049,7 +2049,7 @@
   },
   {
     "id": "api.templates.error.link",
-    "translation": "Mattermost 로 돌아가기"
+    "translation": "Coding Dojo 로 돌아가기"
   },
   {
     "id": "api.templates.error.title",
@@ -2077,7 +2077,7 @@
   },
   {
     "id": "api.templates.invite_body.extra_info",
-    "translation": "Mattermost lets you share messages and files from your PC or phone, with instant search and archiving. After you’ve joined <strong>{{.TeamDisplayName}}</strong>, you can sign-in to your new team and access these features anytime from the web address:<br/><br/><a href='{{.TeamURL}}'>{{.TeamURL}}</a>"
+    "translation": "Coding Dojo lets you share messages and files from your PC or phone, with instant search and archiving. After you’ve joined <strong>{{.TeamDisplayName}}</strong>, you can sign-in to your new team and access these features anytime from the web address:<br/><br/><a href='{{.TeamURL}}'>{{.TeamURL}}</a>"
   },
   {
     "id": "api.templates.invite_body.info",
@@ -2189,11 +2189,11 @@
   },
   {
     "id": "api.templates.upgrade_30_body.info",
-    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>YOUR DUPLICATE ACCOUNTS HAVE BEEN UPDATED</h3>Your Mattermost server is being upgraded to Version 3.0, which lets you use a single account across multiple teams.<br/><br/>You are receiving this email because the upgrade process has detected your account had the same email or username as other accounts on the server.<br/><br/>The following updates have been made: <br/><br/>{{if .EmailChanged }}- The duplicate email of an account on the `/{{.TeamName}}` team was changed to `{{.Email}}`. You will need to use email and password to login, you can use this new email address for login.<br/><br/>{{end}}{{if .UsernameChanged }}- The duplicate username of an account on the team site `/{{.TeamName}}` has been changed to `{{.Username}}` to avoid confusion with other accounts.<br/><br/>{{end}} RECOMMENDED ACTION: <br/><br/>It is recommended that you login to your teams used by your duplicate accounts and add your primary account to the team and any public channels and private groups which you wish to continue using. <br/><br/>This gives your primary account access to all public channel and private group history. You can continue to access the direct message history of your duplicate accounts by logging in with their credentials. <br/><br/>FOR MORE INFORMATION: <br/><br/>For more information on the upgrade to Mattermost 3.0 please see: <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
+    "translation": "<h3 style='font-weight: normal; margin-top: 10px;'>YOUR DUPLICATE ACCOUNTS HAVE BEEN UPDATED</h3>Your Coding Dojo server is being upgraded to Version 3.0, which lets you use a single account across multiple teams.<br/><br/>You are receiving this email because the upgrade process has detected your account had the same email or username as other accounts on the server.<br/><br/>The following updates have been made: <br/><br/>{{if .EmailChanged }}- The duplicate email of an account on the `/{{.TeamName}}` team was changed to `{{.Email}}`. You will need to use email and password to login, you can use this new email address for login.<br/><br/>{{end}}{{if .UsernameChanged }}- The duplicate username of an account on the team site `/{{.TeamName}}` has been changed to `{{.Username}}` to avoid confusion with other accounts.<br/><br/>{{end}} RECOMMENDED ACTION: <br/><br/>It is recommended that you login to your teams used by your duplicate accounts and add your primary account to the team and any public channels and private groups which you wish to continue using. <br/><br/>This gives your primary account access to all public channel and private group history. You can continue to access the direct message history of your duplicate accounts by logging in with their credentials. <br/><br/>FOR MORE INFORMATION: <br/><br/>For more information on the upgrade to Coding Dojo 3.0 please see: <a href='http://www.mattermost.org/upgrading-to-mattermost-3-0/'>http://www.mattermost.org/upgrading-to-mattermost-3-0/</a><br/><br/>"
   },
   {
     "id": "api.templates.upgrade_30_subject.info",
-    "translation": "[MATTERMOST] Mattermost 3.0 업그레이드를 위해 계정을 변경하세요."
+    "translation": "[MATTERMOST] Coding Dojo 3.0 업그레이드를 위해 계정을 변경하세요."
   },
   {
     "id": "api.templates.username_change_body.info",
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "api.templates.welcome_body.info3",
-    "translation": "Mattermost lets you share messages and files from your PC or phone, with instant search and archiving."
+    "translation": "Coding Dojo lets you share messages and files from your PC or phone, with instant search and archiving."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "AD/LDAP 계정이 Mattermost 서버를 사용하기 위한 권한이 없습니다. 시스템 관리자에게 AD/LDAP 사용자 필터 확인을 문의해보세요."
+    "translation": "AD/LDAP 계정이 Coding Dojo 서버를 사용하기 위한 권한이 없습니다. 시스템 관리자에게 AD/LDAP 사용자 필터 확인을 문의해보세요."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "ent.ldap.mattermost_user_update",
-    "translation": "Mattermost 사용자가 AD/LDAP 서버에 의해 변경되었습니다."
+    "translation": "Coding Dojo 사용자가 AD/LDAP 서버에 의해 변경되었습니다."
   },
   {
     "id": "ent.ldap.syncdone.info",
@@ -3353,7 +3353,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost Security Bulletin"
+    "translation": "Coding Dojo Security Bulletin"
   },
   {
     "id": "mattermost.config_file",
@@ -3381,11 +3381,11 @@
   },
   {
     "id": "mattermost.security_checks.debug",
-    "translation": "Mattermost 에서 보안 업데이트 점검하기"
+    "translation": "Coding Dojo 에서 보안 업데이트 점검하기"
   },
   {
     "id": "mattermost.security_info.error",
-    "translation": "Failed to get security update information from Mattermost."
+    "translation": "Failed to get security update information from Coding Dojo."
   },
   {
     "id": "mattermost.send_bulletin.info",
@@ -3393,7 +3393,7 @@
   },
   {
     "id": "mattermost.system_admins.error",
-    "translation": "Failed to get system admins for security update information from Mattermost."
+    "translation": "Failed to get system admins for security update information from Coding Dojo."
   },
   {
     "id": "mattermost.working_dir",
